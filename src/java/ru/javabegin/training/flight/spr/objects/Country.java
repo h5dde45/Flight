@@ -6,7 +6,7 @@ public class Country {
     private String name;
     private String desc;
     private byte[] flag;
-    private String shortName;
+    private String code;
 
     public long getId() {
         return id;
@@ -40,11 +40,15 @@ public class Country {
         this.flag = flag;
     }
 
-    public String getShortName() {
-        return shortName;
+    public String getCode() {
+        return code;
     }
 
-    public void setShortName(String shortName) {
-        this.shortName = shortName;
+    public void setCode(String code) {
+        this.code = code;
     }
+
+   
+    
+    
 }
